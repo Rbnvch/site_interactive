@@ -1,0 +1,209 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v3.1.118612264)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9948,
+            "type": "VEC3",
+            "max": [
+                33.159080505371097,
+                8.312862396240235,
+                33.159149169921878
+            ],
+            "min": [
+                -33.159080505371097,
+                -8.312862396240235,
+                -33.159149169921878
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9948,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                0.9999995231628418
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9948,
+            "type": "VEC4",
+            "max": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -0.9999999403953552,
+                -0.9999999403953552,
+                -0.9999999403953552,
+                -0.9999999403953552
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 9948,
+            "type": "VEC2",
+            "max": [
+                0.9810881018638611,
+                0.9910345673561096
+            ],
+            "min": [
+                0.04903251677751541,
+                0.00984799861907959
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 53568,
+            "type": "SCALAR",
+            "max": [
+                9947.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 584640,
+            "uri": "Texture%20base.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 119376,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 119376,
+            "byteLength": 119376,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 238752,
+            "byteLength": 159168,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 397920,
+            "byteLength": 79584,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 477504,
+            "byteLength": 107136,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "element",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Object006",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 4,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TANGENT": 2,
+                        "TEXCOORD_0": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "matrix": [
+                0.0010000000474974514,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0010000000474974514,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0010000000474974514,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Object006",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                6.123234262925839e-17,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                6.123234262925839e-17,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
